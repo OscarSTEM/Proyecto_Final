@@ -7,13 +7,13 @@
 
 </head>
 <body>
-    <nav>
-        <ul>
+   <nav>
+        <ul class="navbar">
             <li><a href="{{ url_for('tienda_inicio') }}">Inicio</a></li>
             <li><a href="{{ url_for('tienda_productos') }}">Productos</a></li>
-            <li><a href="#">Carrito</a></li> 
-            <!-- Añadir icono del carrito y ponerlo a la derecha -->
-            
+            <li class="carrito">
+                <a href="#"><i class="fas fa-shopping-cart"></i> Carrito</a>
+            </li>
         </ul>
     </nav>
     <main>
