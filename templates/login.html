@@ -18,7 +18,7 @@
             <button type="submit">Entrar</button>
         </form>
         <p>¿No tienes cuenta? <a href="{{ url_for('registro') }}">Regístrate aquí</a></p>
-        
+        <!-- Cambiar el cartelito para que no ponga siempre bienvenido x persona -->
         {% with messages = get_flashed_messages() %}
           {% if messages %}
             <div class="flash-messages">
